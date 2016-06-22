@@ -1,3 +1,5 @@
+# encoding: utf-8
+
 module Invoicing
   # = Input and output of monetary values
   #
