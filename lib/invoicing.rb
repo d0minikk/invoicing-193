@@ -1,4 +1,4 @@
-require 'activerecord'
+require 'active_record'
 
 require 'invoicing/class_info'  # load first because other modules depend on this
 Dir.glob(File.join(File.dirname(__FILE__), 'invoicing/**/*.rb')).sort.each {|f| require f }
